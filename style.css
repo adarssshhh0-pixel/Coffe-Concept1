@@ -1,71 +1,55 @@
-.side{
-    display: flex;
-    justify-content: space-around;
-    padding: 5px;
-    img:hover {
-        transform: scale(1.1);
-        transition: transform 0.3s;
-    }   
-}
-
-.b{
-    height:40px;
-    width: 85px;
-    background-color: black;
-    border-radius: 90%;
-    display: inline-block
-}
-.input{
-   color: black;
-}
-.overimage{
-    color: brown;
-    position: absolute;
-    left: 550px;
-    top: 2110px;
+.body-1{
+    background-color:  #c2b280; 
+    background-image: url(https://image.slidesdocs.com/responsive-images/background/coffee-culture-illustration-powerpoint-background_e224109f77__960_540.jpg);
+    background-size: cover;
+    background-position: center; 
     z-index: 1;
+}  
+.label-1{
+    font-size: x-large;
 }
-.grid{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    img:hover {
-        transform: scale(1.1);
-        transition: transform 0.3s;}
+.input-1{
+    font-size: x-large; 
+    color: black;
+    border-radius:  20px;
 }
-.grid1{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    img:hover {
-        transform: scale(1.1);
-        transition: transform 0.3s;}
+.head-1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    text-decoration: underline; 
+    text-align: center; 
+    font-size: xx-large;
+    position: relative;top: 200px;
+    color: aliceblue;
 }
-.name{
-    text-decoration: underline;
-    color: #c2b280;
-    display: flex;
-    justify-content: space-evenly;
-}
-.name1{
-    text-decoration: underline;
-    color: #c2b280;
-    display: flex;
-    justify-content: space-evenly;
-}
-.topbg{
-    position: relative;bottom: 294px;right: 120px;
-    z-index: -1;
-}
-.login{
-    color: white;
+.login1{
+    color: whitesmoke;
     position: relative;top: 250px;left: 550px;
     
+    
 }
-.my-box{
-    position: relative;left: 500px;bottom: 80px;
+.submit-1{
+    position: relative; top: 30px; left: 190px; 
+    font-size:  x-large;
+    color: brown;
+    border-radius: 10px;
+}
+.dont-have{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+    position: relative;top: 265px;left: 15px;
+    text-align: center;
+    color: whitesmoke;
+}
+.forgot-pass{
+    font-size: small;
+    position: relative;top: 200px; right: 158px;
+    text-align: center;
+    color: whitesmoke;
+}
+.box-1{
+    position: relative;left: 490px;bottom: 120px;
     width: 500px;
-    height: 350px;
+    height: 400px;
     background-color: #c2b28096;
     border: 2px solid darkred;
     padding: 20px;
@@ -73,17 +57,187 @@
     box-sizing: border-box;
     z-index: -1;
     border-radius: 10px;
-    background-position: center;filter: blur(px);
+    background-position: center;
 }
-.my-box1{
-    position: relative;left: 500px;bottom: 80px;
+.body-2{
+    background-color:  #c2b280; 
+    background-image: url(https://png.pngtree.com/background/20230416/original/pngtree-coffee-brown-leaves-illustration-background-picture-image_2443202.jpg);;
+    background-size: cover;
+    background-position: center;
+}
+
+.label-2{
+    font-size: x-large;
+}
+.input-2{
+    font-size: x-large; 
+    color: black;
+    border-radius:  20px;
+}
+.head-2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    text-decoration: underline; 
+    text-align: center; 
+    font-size: xx-large;
+    position: relative;top: 170px;
+    color: aliceblue;
+}
+.login-2{
+    color: whitesmoke;
+    position: relative;top: 220px;left: 530px;
+
+}
+.submit-2{
+    position: relative; top: 30px; left: 190px;  
+    font-size:  x-large; color: brown;
+    border-radius: 10px;
+}
+.already{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+    position: relative;top: 265px;left: 15px;
+    text-align: center;
+    color: whitesmoke;
+}
+.box-2{
+    position: relative;left: 440px;bottom: 170px;
     width: 600px;
-    height: 350px;
+    height: 450px;
     background-color: #352208b7;
-    border: 2px solid darkred;
+    border: 2px solid whitesmoke;
     padding: 20px;
     margin: 30px;
     box-sizing: border-box;
     z-index: -1;
     border-radius: 10px;
 }
+.body-3{
+    background: linear-gradient(to bottom, #352208 30%,#c2b280 40%,#16302B 30%) ;
+}
+.a{
+    color: whitesmoke; 
+    text-decoration: underline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    position: relative;left: 60px;bottom: 10px;
+}
+.b{
+    position: relative;left: 94%;bottom: 92px;
+    color: wheat;
+    height:40px;
+    width: 85px;
+    background-color: black;
+    border-radius: 90%;
+    display: inline-block;
+}
+.c{
+    position: relative;left: 87%;bottom: 172px;
+    color: wheat;
+}
+.d{
+    position: relative;left: 77%;bottom: 220px;
+    color: #c2b280;
+}
+.dropdown{
+    border-radius: 10px; 
+    color: #c2b280; 
+    position: relative;bottom: 263px;left: 1000px;
+   
+}
+.bg-3{
+    position: relative;bottom: 294px;right: 120px;
+    z-index: -1;
+}
+.line-1{
+    text-align: left;
+    position: relative; bottom: 710px;left:75px; 
+    color: #352208; 
+    font-size: xx-large;
+}
+.line-2{
+    text-align: left; 
+    position: relative; bottom: 730px;left:90px;
+    color: #352208;
+    font-size: xx-large;
+}
+.line-3{
+    text-align: left; 
+    position: relative; bottom:750px;left:117px;
+    color: #352208;
+    font-size: xx-large;
+}
+.side-3{
+    border-radius: 5%;
+    position: relative;bottom: 450px;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    img:hover{
+        transform: scale(1.1);
+        transition: transform 0.3s;
+    }   
+}
+.menu{
+    text-align: center; 
+    text-decoration: underline; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #c2b280; 
+    position: relative;bottom: 390px;
+}
+.line-4{
+    text-align: center; 
+    color: #c2b280; 
+    position: relative;bottom: 370px;
+}
+.line-5{
+    text-align: center;
+    color: #c2b280; 
+    position: relative;bottom: 390px;
+}
+.grid-3_1{
+    border-radius: 5%;
+    border-radius: 5%;
+    position: relative;bottom: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    img:hover {
+        transform: scale(1.1);
+        transition: transform 0.3s;
+              }
+}
+.name-3_1{
+    position: relative;bottom: 350px;
+    text-decoration: underline;
+    color: #c2b280;
+    display: flex;
+    justify-content: space-evenly;
+}
+.grid-3_2{
+    border-radius: 5%;
+    border-radius: 10px;
+    position: relative;bottom: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    img:hover {
+        transform: scale(1.1);
+        transition: transform 0.3s;}
+}
+.name-3_2{
+    position: relative;bottom: 350px;
+    text-decoration: underline;
+    color: #c2b280;
+    display: flex;
+    justify-content: space-evenly;
+}
+.ending-bg{
+    position: relative;bottom: 300px;
+}  
+.on-img{
+    color: brown;
+    position: absolute;
+    left: 550px;
+    top: 2110px;
+    z-index: 1;
+}
+
