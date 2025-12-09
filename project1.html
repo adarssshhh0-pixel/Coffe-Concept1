@@ -9,23 +9,23 @@
 <div id="cursor"></div>
 <body class="body-1">
    
-    <form action="project3.html" onsubmit="return data()">
+    <form action="project3.html" onsubmit="return info()">
         
         <h1 class="head-1"> Login </h1>
   
-            <div class="login1">
+            <div class="login1">        
             
-                <label class="label-1" for="Email"> Email: &nbsp;&nbsp;&nbsp;&nbsp;</label>
-                <input class="input-1" type="email" name="Email" id="Email" ><br><br>
+                <label class="label-1" for="Emaill"> Emaill: &nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input class="input-1" type="Emaill" name="Emaill" id="Emaill" ><br><br>
             
-                <label class="label-1" for="Password"> Password: </label>
-                <input class="input-1" type="password" name="Password" id="Password" ><br><br>
+                <label class="label-1" for="Passwordd"> Passwordd: </label>
+                <input class="input-1" type="Passwordd" name="Passwordd" id="Passwordd" ><br><br>
             
                 <button class="submit-1" type="submit"> Login </button>
         
             </div>
    
-                <h2 class="forgot-pass"><a href="project4.html"> Forgot password? </a></h2>
+                <h2 class="forgot-pass"><a href="project4.html"> Forgot Passwordd? </a></h2>
                 <h2 class="dont-have"> Dont have an account? <a href="project2.html"> Login </a></h2>
 
             
@@ -35,32 +35,5 @@
     <div class="box-1"></div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="project.js"></script>
-        <script>
-                function data()
-                {
-                    var a = document.getElementById("Email").value;
-                    var b = document.getElementById("Password").value;
-                    
-                    if (a==""||b=="")
-                    {
-                        alert("All fields are required");
-                        return false;
-                    }
-                    else if( b.length<6 || b.length>6){
-                        alert("Password must contains 6 number" +b.length);
-                        return false;
-                    }
-                    else
-                    {
-                        return true;
-                    }
-                }
-        </script>
     </body>
 </html>
-
-<!-- <img src="https://cdn.dribbble.com/userupload/6013587/file/original-ff7a9762b483e9b698d8cf30ee9dbcb8.jpg?resize=1504x5921&vertical=center" alt=""> -->
-
-<div id="coffe">
-    <h1>COFFE CONCEPT</h1>
-</div>
