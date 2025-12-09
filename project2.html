@@ -35,28 +35,5 @@
     <div class="box-2"></div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script src="project.js"></script>
-       <script>
-            function data()
-                {
-                    var a = document.getElementById("Email").value;
-                    var b = document.getElementById("Password").value;
-                    var c = document.getElementById("Confirm password").value;
-
-                if (a==""||b==""||c=="")
-                    {
-                        alert("All fields are required");
-                        return false;
-                    }
-                    else if( b !=c )
-                    {
-                        alert("Password do not match");
-                        return false;
-                    }
-                else
-                    {
-                        return true;
-                    }
-                }
-        </script>
     </body>
 </html>
