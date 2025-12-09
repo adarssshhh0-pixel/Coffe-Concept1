@@ -4,6 +4,7 @@
     background-size: cover;
     background-position: center; 
     z-index: 1;
+    overflow-x: hidden;
 }  
 .label-1{
     font-size: x-large;
@@ -64,6 +65,7 @@
     background-image: url(https://png.pngtree.com/background/20230416/original/pngtree-coffee-brown-leaves-illustration-background-picture-image_2443202.jpg);;
     background-size: cover;
     background-position: center;
+    overflow-x: hidden;
 }
 
 .label-2{
@@ -112,13 +114,13 @@
     border-radius: 10px;
 }
 .body-3{
-    background: linear-gradient(to bottom, #352208 30%,#c2b280 40%,#16302B 30%) ;
+   overflow-x: hidden; background: linear-gradient(to bottom, #352208 30%,#c2b280 40%,#16302B 30%) ;
 }
 .a{
     color: whitesmoke; 
     text-decoration: underline;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
-    position: relative;left: 60px;bottom: 10px;
+    position: relative;left: 60px;top: -11px;
 }
 .b{
     position: relative;left: 94%;bottom: 92px;
@@ -135,7 +137,7 @@
 }
 .d{
     position: relative;left: 77%;bottom: 220px;
-    color: #c2b280;
+    color: wheat;
 }
 .dropdown{
     border-radius: 10px; 
@@ -166,7 +168,6 @@
     font-size: xx-large;
 }
 .side-3{
-    border-radius: 5%;
     position: relative;bottom: 450px;
     display: flex;
     justify-content: space-around;
@@ -194,8 +195,6 @@
     position: relative;bottom: 390px;
 }
 .grid-3_1{
-    border-radius: 5%;
-    border-radius: 5%;
     position: relative;bottom: 350px;
     display: flex;
     flex-direction: row;
@@ -207,14 +206,11 @@
 }
 .name-3_1{
     position: relative;bottom: 350px;
-    text-decoration: underline;
     color: #c2b280;
     display: flex;
     justify-content: space-evenly;
 }
 .grid-3_2{
-    border-radius: 5%;
-    border-radius: 10px;
     position: relative;bottom: 350px;
     display: flex;
     flex-direction: row;
@@ -225,7 +221,6 @@
 }
 .name-3_2{
     position: relative;bottom: 350px;
-    text-decoration: underline;
     color: #c2b280;
     display: flex;
     justify-content: space-evenly;
@@ -240,4 +235,32 @@
     top: 2110px;
     z-index: 1;
 }
+.body-5{
+    overflow-x: hidden; background: linear-gradient(to bottom, #352208 30%,#c2b280 40%,#16302B 30%) ;
+}
+/* 
+#coffe{
+    color: #352208;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: url(https://media.istockphoto.com/id/503636498/photo/ladys-hands-holding-cup-with-sth-heart-shaped.jpg?s=612x612&w=0&k=20&c=3lpXk7jl2CRPfMiq37aXNIgdfcFfN-BIDNMDqr6f8qE=);
+    background-size: cover;
+    background-clip: text;
+    color: transparent;
+    position: relative;
+    bottom: 50px;
 
+    
+} */
+
+#cursor{
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 9;
+}

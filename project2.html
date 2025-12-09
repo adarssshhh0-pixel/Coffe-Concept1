@@ -6,34 +6,35 @@
     <title> Signup page </title>
     <link rel="stylesheet" href="style.css">
 </head>
-
+<div id="cursor"></div>
 <body class="body-2">
 
-<form action="project3.html" onsubmit="return data()">
+<form action="project3.html" method="get" onsubmit="return data()">
        
     <h1 class="head-2"> Signin </h1>
         
         <div class="login-2">
             
             <label class="label-2" for="Email" > Email: </label>
-            <input class="input-2" type="email" name="Email" id="Email" required ><br><br>
+            <input class="input-2" type="email" name="Email" id="Email" ><br><br>
             
             <label class="label-2" for="Password" > Passsword: </label>
-            <input class="input-2" type="password" name="Password" id="Password" required ><br><br>
+            <input class="input-2" type="password" name="Password" id="Password" ><br><br>
             
             <label class="label-2" for="password" > Confirm password: </label>
-            <input class="input-2" type="password" name="Password" id="password" required ><br><br>
+            <input class="input-2" type="password" name="Password" id="Confirm password" ><br><br>
             
             <button class="submit-2" type="submit"> Signin </button>
             
         </div>
             
-            <h2 class="already"> Already have an account? <a href="project1.html"> Login </a></h2>
+            <h2 class="already"> Already have an account? <a href="project1.html" style="color: whitesmoke;" > Login </a></h2>
 
 </form>
        
     <div class="box-2"></div>
-       
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="project.js"></script>
        <script>
             function data()
                 {
@@ -44,6 +45,11 @@
                 if (a==""||b==""||c=="")
                     {
                         alert("All fields are required");
+                        return false;
+                    }
+                    else if( b !=c )
+                    {
+                        alert("Password do not match");
                         return false;
                     }
                 else
